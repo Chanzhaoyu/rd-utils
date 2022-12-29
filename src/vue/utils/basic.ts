@@ -1,4 +1,4 @@
-import { isObject } from "./validate";
+import { isObject } from "./is";
 
 export function noop() {}
 

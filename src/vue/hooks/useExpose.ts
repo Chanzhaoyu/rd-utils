@@ -1,5 +1,5 @@
 import { getCurrentInstance } from 'vue';
-import { extend } from '../../js/basic';
+import { extend } from '../utils/basic';
 
 // expose public api
 export function useExpose<T = Record<string, any>>(apis: T) {
